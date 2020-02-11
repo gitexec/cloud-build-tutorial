@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: [ 'build', '-t', 'gcr.io/ternary-workshop/beam', '.' ]
+  args: [ 'build', '-t', 'gcr.io/icentris-ml-dev/beam', '.' ]
 images:
-- 'gcr.io/ternary-workshop/beam'
+- 'gcr.io/icentris-ml-dev/beam'
